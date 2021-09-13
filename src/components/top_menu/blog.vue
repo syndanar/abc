@@ -1,0 +1,19 @@
+<template>
+  <router-link class="link" to="#" v-t="'blog'"></router-link>
+</template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component({
+  name: 'top-menu-blog',
+  components: {},
+})
+export default class Home extends Vue {
+
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>

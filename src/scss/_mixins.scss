@@ -1,0 +1,28 @@
+@mixin d-flex {
+  display: flex;
+}
+@mixin d-flex-row {
+  @include d-flex;
+  flex-direction: row;
+  align-items: center;
+}
+@mixin d-flex-row-left {
+  @include d-flex-row;
+  justify-content: start;
+}
+@mixin d-flex-row-space-between {
+  @include d-flex-row;
+  justify-content: space-between;
+}
+@mixin d-flex-row-right {
+  @include d-flex-row;
+  justify-content: end;
+}
+
+@mixin full-screen-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

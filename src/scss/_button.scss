@@ -1,0 +1,62 @@
+.btn {
+  padding: 12px 28px;
+  line-height: 19px;
+  font-size: 16px;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  &.small {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 25px;
+  }
+  &.text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &.btn-primary {
+    background: $c-primary;
+    color: $c-white;
+    &:hover {
+      background: $c-primary-hover;
+    }
+    &.text {
+      color: $c-primary;
+      background: $c-white;
+      &:hover {
+        color: $c-primary-hover;
+      }
+    }
+    &.outline {
+      border: 1px solid $c-primary;
+      color: $c-primary;
+      background: $c-white;
+      &:hover {
+        border-color: $c-primary-hover;
+        color: $c-primary-hover;
+      }
+    }
+  }
+  &.btn-default {
+    background: $c-foreground;
+    color: $c-white;
+    &:hover {
+      background: $c-foreground-hover;
+    }
+    &.text {
+      color: $c-foreground;
+      background: $c-white;
+      &:hover {
+        color: $c-foreground-hover;
+      }
+    }
+    &.outline {
+      border: 1px solid $c-foreground;
+      background: $c-white;
+      &:hover {
+        border-color: $c-foreground-hover;
+      }
+    }
+  }
+}

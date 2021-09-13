@@ -1,0 +1,42 @@
+.top-menu {
+  background: #25282B;
+  height: 32px;
+  .link {
+    line-height: 16px;
+    font-size: 14px;
+    color: #CACCCF;
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.1s linear;
+    &.router-link-active,
+    &:hover {
+      color: #FFFFFF;
+      background: rgba(82, 87, 92, 0.4);
+    }
+  }
+  .language-select {
+    display: inline-block;
+    font-weight: 700;
+    color: #CACCCF;
+    line-height: 15px;
+    font-size: 13px;
+    padding: 4px 23px 3px 8px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #52575C;
+    border-radius: 3px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #25282B;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%225%22%20viewBox%3D%220%200%2010%205%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0%200L5%205L10%200H0Z%22%20fill%3D%22%23A0A4A8%22%2F%3E%0A%3C%2Fsvg%3E%0A');
+    background-repeat: no-repeat, repeat;
+    background-position: right 9px top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    outline: none;
+    &:active {
+      border-color: #74787c;
+    }
+  }
+}
