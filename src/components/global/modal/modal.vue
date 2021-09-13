@@ -13,9 +13,9 @@
       </div>
       <div class="gc-modal-footer">
         <div>
-          <buttom class="btn btn-default text" @click="closeModal">
+          <button class="btn btn-default text" @click="closeModal">
             Отменить
-          </buttom>
+          </button>
           <slot name="footer"></slot>
         </div>
       </div>
